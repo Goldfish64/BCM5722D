@@ -437,7 +437,8 @@ bool BCM5722D::initializeAdapter()
     writeCSR(EMAC_MIMODE, EMAC_MIMODE_CLOCK_66MHZ);
   }
 
-  writeCSR(EMAC_LEDCTL, EMAC_LEDCTL_MODE_PHY1);
+  // Leave LED mode as-is.
+  //writeCSR(EMAC_LEDCTL, EMAC_LEDCTL_MODE_PHY1);
 
   writeCSR(EMAC_MISTAT, EMAC_MISTAT_LINKSTAT);
 
