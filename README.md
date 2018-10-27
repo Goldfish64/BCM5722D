@@ -6,7 +6,7 @@ BCM5722 Programmer's Guide provided in Broadcom's open source developer
 resource. Additional information is gleaned from Linux(tg3) and
 FreeBSD(if\_bge) driver.
 
-#### Forked from [chris1111](https://github.com/chris1111/BCM5722D). Modified to not modify LED status (some machines end up having no link light otherwise).
+#### Forked from [chris1111](https://github.com/chris1111/BCM5722D). Modified to not change LED status (some machines end up having no link light otherwise).
 
 #### This is a Fork of [adlan](https://github.com/adlan/BCM5722D) With Fix from [long1eu](https://github.com/long1eu)
 
